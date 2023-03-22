@@ -12,7 +12,7 @@ jobs:
           echo "todo"
 
   publish:
-    name: "publish"
+    name: publish
     needs:
       - lint
     steps:
