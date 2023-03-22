@@ -10,9 +10,9 @@ jobs:
           npm install
           npm run lint
           echo "todo"
-
   publish:
     name: publish
+    runs-on: ubuntu-latest
     needs:
       - lint
     steps:
